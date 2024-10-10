@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    width: 100%; /* Ensures full width */
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+    background-color:black;
+}
+
+img {
+    width: 150px;
+    border-radius: 100px;
+    height:auto;
+}
+.container1{
+   
+    text-align: center;
+    background-image: url("/images/istockphoto-478247780-2048x2048.jpg");
+    width: 720px;
+    height: 343px;
+    background-size: 100% auto;
+ } /* Adjust width to 100% of the element's width, height auto */
+    
+ #title{
+    background-color:#1D3557 ;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 8px;
+}
+#title2{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto 30px auto;
+    background-color: #457B9D;
+    border-radius: 8px;
+
+}
+.section2{
+    background-color:#F1FAEE;
+    width: 720px;
+    height: 378px;
+    text-align: center;
+  
+}
+#title3{
+    margin-left: auto;
+    margin-right: auto;
+    color: #1D3557;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    padding :auto 0 auto 0 
+
+}
+.section3{
+    width: 720px;
+    height: 350px;
+    background-color: hsl(180, 6%, 97%);
+ 
+    
+}
+
+
+.Guide-info{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 30px auto 0 auto;
+    background-color: #A8DADC;
+    width: 400px;
+    height: 294px;
+    border-radius: 15px;
+    border-bottom: 5px solid black;
+}
+    
+#text-el{
+padding-top: 20px;
+ height :100px;
+ width: 100px;
+}
+.img{
+    padding-top: 20px;
+}
+#img-el{
+  width: 180px;
+  height: 248.67px;
+  border-radius: 20px;
+}
