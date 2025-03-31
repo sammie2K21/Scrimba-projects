@@ -1,4 +1,4 @@
-# Getting Started
+How to get this working
 Install the dependencies and run the project
 ```
 npm install
